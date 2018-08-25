@@ -1,0 +1,43 @@
+h1 {
+	color: yellow;
+	font-family: impact, helvetica;
+	font-size: 3em;
+	text-align: left;
+}
+
+h2 {
+	color: yellow;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+h3 {
+	color: navy;
+	text-align: left;
+}
+
+a {
+	color: aqua;
+	text-align: left;
+	display: inline-block;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	text-align: left;
+}
+
+ul {
+	color: navy;
+	font-size: 22px;
+	text-align: left;
+}
+li {
+	color: navy;
+	font-size: 22px;
+	text-align: left;
+}
+
+body {  background-image: url(birdground.png); } 
+
