@@ -37,3 +37,6 @@ li {
 	font-size: 22px;
 	text-align: left;
 } 
+h6{
+	display: inline-block;
+}
