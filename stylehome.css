@@ -18,6 +18,10 @@ h3 {
 	text-align: left;
 }
 
+h4 {
+	display: inline-block;
+}
+
 a {
 	text-align: left;
 	//display: inline-block;
@@ -37,7 +41,4 @@ li {
 	font-size: 22px;
 	text-align: left;
 } 
-h5{
-	display: inline-block;
-	font-size: 13px;
-}
+
