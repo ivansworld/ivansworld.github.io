@@ -1,2 +1,2 @@
 # ivansworld.github.io
-An awful first try at creating a website
+A very poor attempt at creating a website
