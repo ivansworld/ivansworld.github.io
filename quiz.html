@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html>
  <head>
- 	<title>Ivan's World!</title>
+ 	<title>Nerd Test - Ivan's World</title>
  	<link rel="stylesheet" href="stylehome.css">
  	<link rel='shortcut icon' type='image/x-icon' href='Files/Images/favicon.ico' />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -37,17 +37,17 @@ bgcolor="#cc9999"><td><font size=2 face="arial, helvetica">&nbsp;
 	
 <br>
 
- 	<td><b><font color="white"><font size="+2">Homepage
+ 	<td><b><font color="white"><font size="+2">The Nerd Test
  	</font></font></b></td>
  	</tr>
  	</tbody></table>
  	<table width = "100%" border="4" cellpadding="8" bgcolor="#FFFFFF">
 	<tbody><tr>
 <td>
-<img src="Files/Images/webpage.gif" alt="board" align="right">
+<img src="Files/Images/nerd.gif" alt="board" align="right">
 <h3>Definition of nerd: an unstylish, unattractive, or socially inept person, especially one<br>
 slavishly devoted to intellectual or academic pursuits... I don't know why "nerd pride" is<br>
-such a huge deal these days. While I'll admit that I do have many... "tendencies," I'd still<br>
+such a huge deal these days. While I'll admit that I did get a pretty high score," I'd still<br>
 never call myself one. Still, this test was suggested by a friend and it was pretty fun to make.<br>
 The test assumes that the normal baseline is 0. The higher that your score is, the closer that you<br>
 are to the definition above. 
@@ -298,7 +298,7 @@ Check off an acronym if you know what it stands for</h3>
 		<li><label><input type="checkbox" name="q1" value="1"> ...because you were too scared?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> ...because nobody would want to date you?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> Have you never kissed somebody (Who wasn't part of your family?</label></li>
-		<li><label><input type="checkbox" name="q1" value="1"> Have you ever turned down a date or party to... play video games?</label></li>
+		<li><label><input type="checkbox" name="q1" value="1"> Have you ever turned down a date, party, or other social event to... play video games?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> ...tinker with your computer?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> ...read?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> ...do homework/study?</label></li>
@@ -410,9 +410,14 @@ Check off an acronym if you know what it stands for</h3>
 			<li><label><input type="checkbox" name="q1" value="1"> Do you know what a Geiger counter does?</label></li>
 			<li><label><input type="checkbox" name="q1" value="1"> Do you know what a dosimeter does?</label></li>
 			<li><label><input type="checkbox" name="q1" value="1"> Have you ever been called a 'human encyclopedia?'</label></li>
+			<li><label><input type="checkbox" name="q1" value="1"> Have you memorized more than five show theme songs by heart?</label></li>
+			<li><label><input type="checkbox" name="q1" value="1"> Do you know how to use a slide rule?</label></li>
+			<li><label><input type="checkbox" name="q1" value="1"> Have you ever accurately diagnosed somebody with an illness just by looking at them?</label></li>
+			<li><label><input type="checkbox" name="q1" value="1"> Do you often inadvertently refer to substances by their chemical name?</label></li>
+			<li><label><input type="checkbox" name="q1" value="1"> Can you name at least five active NASA missions??</label></li>
 		</ol>
 		<h3>Part VIII: Conclusion</h3>
-		<ol start = "331">
+		<ol start = "336">
 		<li><label><input type="checkbox" name="q1" value="1"> Are you taking this test on a vintage computer?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> Are you taking this test in an empty room?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> Were you told to take this test by a friend?</label></li>
@@ -428,6 +433,7 @@ Check off an acronym if you know what it stands for</h3>
 		<li><label><input type="checkbox" name="q1" value="1"> Would you be very ashamed/excited about your score?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> Are you going to bookmark this website?</label></li>
 		<li><label><input type="checkbox" name="q1" value="1"> Do you now want to make your own quiz?</label></li>
+		</ol>
 	<br>
 <p><button type="submit">Submit</button></p>
 
@@ -483,34 +489,44 @@ Check off an acronym if you know what it stands for</h3>
     *************************************************************************/
     var RESULTS = {};
     RESULTS[0] = {
-        name: "Pure",
-        image: "result_1.jpg",
-        text: "You're free of this 'mess', and that's a good thing. Remember, being a<br>fully functional person is a good thing. Feel proud of your luck."
+        name: "0% - 9% = Pure",
+        text: "You're perfectly healthy and normal. That's good."
     };
-	RESULTS[5] = {
-        name: "Wannabe Nerd",
-        image: "result_3.jpg",
-        text: "You think that wearing a T-Shirt which says 'I bang Mathletes' and fake<br>glasses automatically makes you a nerd. In all actuality, you are likely<br>an attractive person who couldn't give a crap about academics. Being a<br>nerd is nothing to be proud of. Quit acting like it's cool."
+	RESULTS[35] = {
+        name: "10% - 19% = Slight tendencies",
+        text: "You're not there quite yet, but you're still in a place where your score<br>could abruptly swing into 'nerd territory.'"
     };
-    RESULTS[10] = {
-        name: "Nerdish 'Tendencies'",
-        image: "result_2.jpg",
-        text: "Oh boy, you do show a few tendencies. Still, you are mostly pure and can<br>still communicate with the outside world. However, be warned that it is<br>easy to sway from this state, either towards purity or 'Nerdishism.'"
-    };
-    RESULTS[40] = {
-        name: "Closeted Nerd",
-        image: "result_3.jpg",
+    RESULTS[70] = {
+        name: "20% - 29% = Closeted nerd",
         text: "Well Melvin, you're clearly past the point of no-return. Still, you want<br>to live a normal life. Despite this, everybody else can clearly tell that<br>deep inside you can't wait to open a Biology textbook and watch PBS."
     };
-    RESULTS[60] = {
-        name: "Poindexter",
-        image: "result_4.jpg",
-        text: "Well, you're in quite the predicament. At this point, you don't ever care.<br>Why live a social life when you can spend all day learning about some obscure<br>disease or blowing all of your money on stuff that nobody<br>else cares about?"
+	RESULTS[105] = {
+        name: "30% - 39% = Low key nerd",
+        text: "You were definately into many intellectual pursuits, but that never seemed<br>to impact your social life. You spent good time with both the nerds and the<br>'cooler' kids, and were well known around the school."
     };
-	RESULTS[60] = {
-        name: "Uber Goober",
-        image: "result_4.jpg",
+	RESULTS[140] = {
+        name: "40% - 49%  = Honors student",
+        text: "You were the kid who saw nothing lower than an 'A' and who always made the<br>honor roll. When others were panicing and trying to raise their D to a C, you<br>were perfectly fine."
+    };
+	RESULTS[175] = {
+        name: "50% - 59% = Experienced convention-goer",
+        text: "You're everywhere. All the guys down at the Hamfest know you on a first name<br>basis, and you've lost count of how many ComicCons that you've attended."
+    };
+    RESULTS[210] = {
+        name: "60% - 69% = The smart kid who has a movie named after him",
+        text: "You're practically the movie-grade smart kid. You've got the brains, the<br>large cranium, and you seem to always call salt 'sodium chloride.'"
+    };
+	RESULTS[245] = {
+        name: "70% - 79% = Poindexter",
+        text: "At this point the question isn't even 'how low can you go.' It's about how<br>much that those around you can take."
+    };
+	RESULTS[280] = {
+        name: "80% - 89% = 'Revenge Of The Nerds' look-alike",
         text: "You're the nerd poster-child. All those guys from Revenge of The Nerds have<br>nothing on you. Your complete devotion to academics and your mannerisms are<br>enough to turn almost anyone away from you."
+    };
+	RESULTS[315] = {
+        name: "90% - 100% = Nerd God",
+        text: "FEAR MY POWER, MERE MORTALS! I SHALL RISE UP AND DESTROY YOU ALL WITH MY KNOWLEDGE!"
     };
     /*************************************************************************
     If for some reason you need to give your form a different name attribute
@@ -614,8 +630,19 @@ http://www.dragonflycave.com/free-quiz-scripts
 *************************************************************************/
 </script>
 <br>
+<h3>Special thanks to:</h3>
+Mick<br>
+TechMT<br>
+Everybody who was a beta tester<br>
+Armory's "Nerdity" test<br>
+Innergeek's "Geek Test"<br>
 <br>
-<br>Site last updated on: Feb 10th, 2019
+<br>
+The highest score is mine, at 276 points. If you scored higher, sent me an email from the link<br>
+on the about page including your score and alias to be used.
+<br>
+<br>
+<br>Page last updated on: Feb 25th, 2019
 </font></td></tr></tbody></table>
  	
 	<table cols="1" width="100%" bgcolor="#A9A9A9">
