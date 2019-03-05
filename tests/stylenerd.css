@@ -1,0 +1,45 @@
+body {  background-image: url(Files/Images/nerdground.bmp); }
+
+h1 {
+	color: maroon;
+	font-family: helvetica;
+	font-size: 1.8em;
+}
+
+h2 {
+	color: firebrick;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+h3 {
+	color: navy;
+	text-align: left;
+	font-family: timesnewroman;
+}
+
+h4 {
+	display: inline-block;
+}
+
+a {
+	text-align: left;
+	//display: inline-block;
+}
+
+p {
+	text-align: left;
+	color: black;
+}
+
+ul {
+	color: navy;
+	font-size: 22px;
+	text-align: left;
+}
+li {
+	color: navy;
+	font-size: 22px;
+	text-align: left;
+} 
+
