@@ -1,8 +1,16 @@
-body {  background-image: url(Files/Images/background.png); }
+body {  background-image: url(Files/Images/background.gif); }
+
+audio { 
+   display:none;
+}
+
+* {
+	font-family: Comic Sans MS, Comic Sans;
+}
 
 h1 {
 	color: maroon;
-	font-family: helvetica;
+	font-family: Comic Sans MS, Comic Sans;
 	font-size: 1.8em;
 }
 
@@ -10,36 +18,42 @@ h2 {
 	color: firebrick;
 	font-size: 1.5em;
 	text-align: left;
+	font-family: Comic Sans MS, Comic Sans;
 }
 
 h3 {
 	color: navy;
 	text-align: left;
-	font-family: timesnewroman;
+	font-family: Comic Sans MS, Comic Sans;
 }
 
 h4 {
 	display: inline-block;
+	font-family: Comic Sans MS, Comic Sans;
 }
 
 a {
 	text-align: left;
+	font-family: Comic Sans MS, Comic Sans;
 	//display: inline-block;
 }
 
 p {
 	text-align: left;
-	color: black;
+	color: yellow;
+	font-family: Comic Sans MS, Comic Sans;
 }
 
 ul {
 	color: navy;
 	font-size: 22px;
 	text-align: left;
+	font-family: Comic Sans MS, Comic Sans;
 }
 li {
 	color: navy;
 	font-size: 22px;
 	text-align: left;
+	font-family: Comic Sans MS, Comic Sans;
 } 
 
